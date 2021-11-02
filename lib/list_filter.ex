@@ -3,7 +3,7 @@ defmodule ListFilter do
     if Enum.empty?(list) do
       0
     else
-      Enum.reduce(list, fn num, acc -> reduce(num, acc) end)
+      Enum.reduce(list, 0, fn num, acc -> reduce(num, acc) end)
     end
   end
 

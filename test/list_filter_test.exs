@@ -5,7 +5,7 @@ defmodule ListFilterTest do
     test "count odd numbers" do
       list1 = ["1", "3", "6", "43", "banana", "6", "abc"]
       list2 = [1, 6, 8, 7, "20", "27", "fernando", "elixir", "49"]
-      list3 = ["1", "3", "43", "rocketseat", "21", "31"]
+      list3 = ["3", "3", "43", "rocketseat", "21", "31"]
 
       list1_expected_response = 3
       list2_expected_response = 4
